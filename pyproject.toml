@@ -1,0 +1,22 @@
+[project]
+name = "micropython-vt100"
+version = "0.0.0"
+authors = [{ name = "Gary Benson", email = "gary@gbenson.net" }]
+description = "MicroPython VT100 emulator"
+readme = "README.md"
+dependencies = [
+    "flake8",
+    "flake8-quotes",
+    "pillow",
+    "pydantic",
+]
+
+[project.urls]
+Homepage = "https://github.com/gbenson/micropython-vt100"
+
+[project.scripts]
+makefont = "makefont:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

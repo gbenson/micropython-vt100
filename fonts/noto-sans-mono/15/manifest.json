@@ -1,0 +1,76 @@
+{
+  "path": "/usr/share/fonts/chromeos/noto/NotoSansMono-Regular.ttf",
+  "adjust_min_y": -1,
+  "replacement_character": 65535,
+  "blocks": [
+    {
+      "name": "Basic Latin",
+      "start": 0,
+      "limit": 128
+    },
+    {
+      "name": "Latin-1 Supplement",
+      "start": 128,
+      "limit": 256
+    },
+    {
+      "name": "Latin Extended-A",
+      "start": 256,
+      "limit": 384
+    },
+    {
+      "name": "Greek and Coptic",
+      "start": 880,
+      "limit": 1024,
+      "include_only": {
+	"range": {
+	  "start": 913,
+	  "limit": 970
+	}
+      }
+    },
+    {
+      "name": "Cyrillic",
+      "start": 1024,
+      "limit": 1280,
+      "include_only": {
+	"range": {
+	  "start": 1040,
+	  "limit": 1104
+	}
+      }
+    },
+    {
+      "name": "Currency Symbols",
+      "start": 8352,
+      "limit": 8400,
+      "include_only": {
+	"glyphs": [
+          8364
+	]
+      }
+    },
+    {
+      "name": "Letterlike Symbols",
+      "start": 8448,
+      "limit": 8528,
+      "include_only": {
+	"glyphs": [
+          8482
+	]
+      }
+    },
+    {
+      "name": "Mathematical Operators",
+      "start": 8704,
+      "limit": 8960,
+      "include_only": {
+	"glyphs": [
+          8723,
+          8734,
+	  8776
+	]
+      }
+    }
+  ]
+}
