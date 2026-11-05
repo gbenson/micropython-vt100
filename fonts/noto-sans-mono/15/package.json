@@ -1,0 +1,9 @@
+{
+  "urls": [
+    [
+      "noto-sans-mono-15.ff",
+      "github:gbenson/micropython-vt100/fonts/noto-sans-mono/15/noto-sans-mono-15.ff"
+    ]
+  ],
+  "version": "1.0.0"
+}

@@ -2,6 +2,12 @@
 
 VT100 terminal emulator for MicroPython.
 
+## Installation
+
+```sh
+mpremote mip install github:gbenson/micropython-vt100/fonts/noto-sans-mono/15
+```
+
 ## Development
 
 ```sh
